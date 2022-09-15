@@ -1,0 +1,77 @@
+/* font-family: 'Zen Dots', cursive;*/
+@import url('https://fonts.googleapis.com/css2?family=Zen+Dots&display=swap');
+
+
+body {
+    margin: 0;
+    background: rgb(0, 0, 0);
+}
+
+
+.canvas-outer-container {
+    width: 100vw;
+    height: 100vh;
+    margin: 0;
+
+    position: relative;
+    display: block;
+    overflow: hidden;
+
+}
+
+
+.middle-text-container {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -52%);
+    /*border: 5px solid #FFFF00;
+    */justify-content: center;
+    align-items: center;
+    -webkit-transform: translate(-50%, -52%);
+    -moz-transform: translate(-50%, -52%);
+    -ms-transform: translate(-50%, -52%);
+    -o-transform: translate(-50%, -52%);
+}
+
+
+
+h1.middle-text {
+    color: rgb(238, 246, 255);
+    font-family: 'Zen Dots', cursive;
+    font-weight: 500;
+    font-size: 4.7vw;
+    text-align: center;
+    border: 1px solid rgb(40, 73, 218);
+    transform: translateX(3%);
+    -webkit-transform: translateX(3%);
+    -moz-transform: translateX(3%);
+    -ms-transform: translateX(3%);
+    -o-transform: translateX(3%);
+    padding: 0px 20px;
+    text-shadow: 2px 1px 25px black;
+}
+
+h2.middle-bottom-text {
+    color: whitesmoke;
+    padding: 0px 20px;
+    border: 1px solid rgb(122, 33, 224);
+    font-style: normal;
+    font-size: 1.1vw;
+    text-align: center;
+    -webkit-transform: translate(1%, -145%);
+    -moz-transform: translate(1%, -145%);
+    -ms-transform: translate(1%, -145%);
+    -o-transform: translate(1%, -145%);
+    letter-spacing: 2vw;
+    transform: translate(1%, -145%);
+    text-shadow: 2px 1px 10px rgb(0, 0, 0);
+}
+
+h2.middle-bottom-text i {
+    letter-spacing: 0pt;
+    font-size: 0.7vw;
+    text-shadow: 6px 1px 6px rgb(0, 0, 0);
+}
